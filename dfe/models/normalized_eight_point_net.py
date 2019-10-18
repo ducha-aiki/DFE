@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import dfe.models.loss as L
+from thirdparty.DFE.dfe.models import loss as L
 
 
 class ResNetBlock(nn.Module):

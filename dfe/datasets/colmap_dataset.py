@@ -4,8 +4,8 @@
 import sqlite3
 import numpy as np
 
-from dfe.datasets import FundamentalMatrixDataset
-from dfe.utils import colmap_read, colmap_utils
+from thirdparty.DFE.dfe.datasets import FundamentalMatrixDataset
+from thirdparty.DFE.dfe.utils import colmap_read, colmap_utils
 
 
 class ColmapDataset(FundamentalMatrixDataset):
